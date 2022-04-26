@@ -84,6 +84,7 @@ The API expects the following JSON data as the payload of the HTTP request:
 
 ```bash
 curl -s -X POST \
+  --header 'Content-type: application/json' \
   --header 'x-api-key: aaaabbbbccccddddeeeeffff12345678' \
   --data '{"partnerId": "acme", "origin": "shop.example.com", "productId": "foobar", "recipient": {"firstName": "John", "lastName": "Smith", "email": "john@example.com"}}' \
   https://leanpub.schams.net/api/v2/PartnerDiscountRequest
