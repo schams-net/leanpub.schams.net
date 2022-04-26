@@ -5,7 +5,7 @@ The term *public* in this context means that the API is publicly accessible but 
 
 ## Public API
 
-➤ [Affiliate Program](https://github.com/schams-net/leanpub.schams.net/blob/release/Documentation/AffiliateProgram/): This API lets partners trigger a discount for a specific product at Leanpub.
+➤ [Affiliate Program](https://github.com/schams-net/leanpub.schams.net/tree/v2/Documentation/AffiliateProgram): This API lets partners trigger a discount for a specific product at Leanpub.
 
 ## Versions
 
