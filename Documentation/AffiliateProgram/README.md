@@ -9,7 +9,7 @@ The email contains the link to Leanpub that lets the recipient redeem the discou
 
 ## API Endpoint
 
-URI: `https://leanpub.schams.net/api/v2/partner-discount-request`
+URI: `https://leanpub.schams.net/api/v2/PartnerDiscountRequest`
 
 Only `POST` requests are supported. Any other method results in a "Missing Authentication Token" error (HTTP status code: 403).
 
@@ -86,7 +86,7 @@ The API expects the following JSON data as the payload of the HTTP request:
 curl -s -X POST \
   --header 'x-api-key: aaaabbbbccccddddeeeeffff12345678' \
   --data '{"partnerId": "acme", "origin": "shop.example.com", "productId": "foobar", "recipient": {"firstName": "John", "lastName": "Smith", "email": "john@example.com"}}' \
-  https://leanpub.schams.net/api/v2/special-offer
+  https://leanpub.schams.net/api/v2/PartnerDiscountRequest
 ```
 
 ## Response
